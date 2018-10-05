@@ -21,7 +21,6 @@ app.get('/', (req, res) => {
 app.get('*', function (req, res) {
   res.send('Whoops, page not found 404').status(404);
 })
-
 app.listen(process.env.PORT || 8080, () => {
     console.log('listening at http://localhost:8080');
 });
