@@ -17,6 +17,7 @@ function playGame(){
 	var choice;
 	humansTurn(choice);
 }
+
 function humansTurn(choice){
 	humanPick(choice);			
 }
