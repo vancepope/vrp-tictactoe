@@ -13,7 +13,6 @@ app.set('views', './views');
 
 //Setting default engine to be ejs
 app.set('view engine', 'ejs');
-
 app.get('/', (req, res) => {
     res.render('grid');
 });
