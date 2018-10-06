@@ -16,7 +16,6 @@ app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
     res.render('grid');
 });
-
 // Catch and handle everything else
 app.get('*', function (req, res) {
   res.send('Whoops, page not found 404').status(404);
